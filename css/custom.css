@@ -1,0 +1,396 @@
+/* General - Body */
+body {
+    font-family: 'Quicksand', sans-serif; /* Tipografía principal */
+    color: #4A4A4A; /* Color del texto gris oscuro */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; /* Fondo blanco */
+}
+
+/* Encabezados H1 hasta H6 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif; /* Misma tipografía que el body */
+    font-weight: bold; /* Negrita para los encabezados */
+    color: #333333; /* Color más oscuro */
+    margin-bottom: 1rem; /* Espaciado inferior uniforme */
+}
+
+
+
+/* Navbar */
+.custom-navbar {
+    background-color: #FFFFFF; /* Fondo blanco */
+    border-bottom: 2px solid #F7921E; /* Línea naranja inferior */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    padding: 0.5rem 2rem; /* Espaciado interno */
+}
+
+.custom-navbar .navbar-brand img {
+    height: 60px; /* Tamaño del logo */
+}
+
+.custom-navbar .nav-link {
+    color: #4A4A4A; /* Texto gris oscuro */
+    font-weight: bold;
+    margin-right: 1rem; /* Espaciado entre enlaces */
+    transition: color 0.3s ease-in-out;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+    color: #F7921E; /* Color naranja al interactuar */
+}
+
+.custom-navbar .btn-dark {
+    background-color: #4A4A4A; /* Botón oscuro */
+    color: #FFFFFF; /* Texto blanco */
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.custom-navbar .btn-dark:hover {
+    background-color: #F7921E; /* Botón naranja al pasar el cursor */
+    color: #FFFFFF;
+}
+
+/* Ajuste de Espaciado */
+body {
+    padding-top: 90px; /* Evita que el contenido quede detrás del navbar */
+}
+
+
+
+/* General del Carrusel */
+#portada .carousel-item img {
+    filter: brightness(60%); /* Oscurece ligeramente la imagen */
+    object-fit: cover;
+    height: 100vh;
+}
+
+.carousel-caption {
+    bottom: 25%;
+    text-align: left;
+    max-width: 600px;
+    margin-left: 10%;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    color: #f1f1f1;
+}
+
+.highlight-text {
+    background-color: #f3a43b;
+    color: #333;
+    padding: 0.2rem 0.6rem;
+    border-radius: 5px;
+}
+
+/* Transiciones suaves */
+.carousel .carousel-item {
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+
+
+
+
+/* Servicios */
+#servicios {
+    background-color: #FFFFFF; /* Fondo blanco */
+    padding: 2rem 0;
+}
+
+#servicios h2 {
+    color: #333333;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#servicios .card {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#servicios .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#servicios .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    height: 150px;
+}
+
+#servicios .card-title {
+    color: #F7921E; /* Naranja Taxi Sonrisas */
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+#servicios .card-text {
+    font-size: 0.9rem;
+    color: #555555;
+}
+
+/* Testimonios */
+#testimonios {
+    background-color: #fff8f0;
+    padding: 3rem 0;
+}
+
+#testimonios h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+#testimonios .carousel-inner p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#testimonios .rounded-circle {
+    border: 4px solid #ff9900;
+    margin: 0 auto;
+}
+
+#testimonios .carousel-indicators {
+    bottom: -40px; /* Ajusta la posición debajo del texto */
+}
+
+#testimonios .carousel-indicators button {
+    background-color: #ff9900; /* Color de los puntos */
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+#testimonios .carousel-indicators .active {
+    background-color: #ff5500; /* Indicador activo */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none !important; /* Elimina las flechas de navegación */
+}
+
+
+/* Beneficios */
+#beneficios {
+    background-color: #fff; /* Fondo blanco */
+    padding: 3rem 0;
+}
+
+#beneficios h2 {
+    color: #333; /* Color oscuro para el título */
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#beneficios p {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+#beneficios .card {
+    border: none; /* Sin bordes */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    transition: transform 0.3s ease-in-out;
+}
+
+#beneficios .card:hover {
+    transform: translateY(-10px); /* Elevación en hover */
+}
+
+#beneficios .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#beneficios .card-title {
+    color: #333; /* Texto oscuro */
+    margin-bottom: 0.5rem;
+}
+
+#beneficios .card-text {
+    color: #777; /* Texto gris */
+    font-size: 0.95rem;
+}
+
+#beneficios .btn-warning {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+#beneficios .btn-warning:hover {
+    background-color: #e68400; /* Color hover */
+    color: #fff;
+}
+
+/* Alineación centrada de los botones */
+.card .btn {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Modales */
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Descargar Nuestra App */
+#descargar {
+    background-color: #fff; /* Fondo blanco */
+    padding: 3rem 0;
+}
+
+#descargar h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+#descargar p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+#descargar .btn-dark {
+    background-color: #333; /* Botón oscuro */
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+#descargar .btn-dark i {
+    margin-right: 0.5rem; /* Espaciado entre icono y texto */
+}
+
+#descargar .btn-dark:hover {
+    background-color: #ff9900; /* Cambio de color hover */
+    color: #fff;
+}
+
+#descargar img {
+    max-width: 80%;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+
+/* Convocatoria Section */
+#convocatoria {
+    background-image: url("../img/Catedral.jpg");
+    padding: 3rem 0;
+}
+
+#convocatoria h2 {
+    color: #FF9900; /* Naranja distintivo */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#convocatoria p {
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+#convocatoria .form-label {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#convocatoria .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+    transition: border-color 0.3s ease;
+}
+
+#convocatoria .form-control:focus {
+    border-color: #FF9900;
+    outline: none;
+}
+
+#convocatoria .btn-warning {
+    background-color: #FF9900;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#convocatoria .btn-warning:hover {
+    background-color: #e68a00;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+}
+
+footer h5 {
+    color: #d57023;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+footer img {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer hr {
+    border-color: #555;
+    opacity: 0.7;
+}
+
+.social-icons a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 0.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+

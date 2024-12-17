@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAXI SONRISA</title>
+  <meta name="description" content="Agencia de viajes en Perú que ofrece tours y paquetes de viaje a destinos nacionales e internacionales. Descubre los mejores destinos turísticos de Perú y el mundo con nosotros.">
+  <meta name="author" content="Charli">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="es">
+  <meta name="geo.region" content="ES-AN" />
+  <meta name="geo.placename" content="Alcalá del Río" />
+  <meta name="geo.position" content="37.495113;-5.964264" />
+  <meta name="ICBM" content="37.495113, -5.964264" />
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/custom.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="img/logosonrisas.png" alt="Logo Taxi Sonrisas" height="60">
+            </a>
+            <!-- Botón Responsive -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Menú de navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú de Navegación -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#servicios"><i class="fas fa-cogs me-2"></i>Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonios"><i class="fas fa-comments me-2"></i>Testimonios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#beneficios"><i class="fas fa-gift me-2"></i>Beneficios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#descargar"><i class="fas fa-mobile-alt me-2"></i>App</a>
+                  </li>                  
+                </ul>
+                <!-- Botón de Convocatoria -->
+                <a href="#convocatoria" class="btn btn-dark ms-3" href="#convocatoria">Convocatoria</a>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <!-- Menu de contenido -->
+    <main>
+    <!-- Carrusel de Portada -->
+    <section id="portada" class="position-relative">
+      <div id="carouselPortada" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <img src="img/taxi.jpg" class="d-block w-100 img-fluid" alt="Taxi Sonrisas 1">
+            <div class="carousel-caption text-start">
+              <h1 class="fw-bold display-5">
+                Tu viaje <span class="highlight-text">más seguro</span> con Taxi Sonrisas
+              </h1>
+              <p class="fs-5">Puntualidad, comodidad y confianza en cada traslado.</p>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <img src="img/taxi2.jpg" class="d-block w-100 img-fluid" alt="Taxi Sonrisas 2">
+            <div class="carousel-caption text-start">
+              <h1 class="fw-bold display-5">
+                Viaja <span class="highlight-text">con confianza</span> y seguridad
+              </h1>
+              <p class="fs-5">La mejor experiencia en tus traslados diarios.</p>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <img src="img/taxi3.jpg" class="d-block w-100 img-fluid" alt="Taxi Sonrisas 3">
+            <div class="carousel-caption text-start">
+              <h1 class="fw-bold display-5">
+                <span class="highlight-text">Tu comodidad</span> es nuestra prioridad
+              </h1>
+              <p class="fs-5">Rápido, seguro y al alcance de tu mano.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5 fw-bold">Nuestros Servicios</h2>
+        <div class="row">
+          <!-- Servicio 1 -->
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card border-0 shadow h-100">
+              <img src="img/servicio1.jpg" class="card-img-top" alt="Servicio de compras">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">
+                  <i class="fas fa-shopping-cart me-2"></i>Servicio de compras
+                </h5>
+                <p class="card-text">Compra lo que quieras sin moverte de casa, usando nuestro servicio de Compras!</p>
+              </div>
+            </div>
+          </div>
+          <!-- Servicio 2 -->
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card border-0 shadow h-100">
+              <img src="img/servicio2.jpg" class="card-img-top" alt="Servicios Privados">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">
+                  <i class="fas fa-user-tie me-2"></i>Servicios Privados
+                </h5>
+                <p class="card-text">Unidades modernas y atención exclusiva.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Servicio 3 -->
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card border-0 shadow h-100">
+              <img src="img/servicio3.jpg" class="card-img-top" alt="Traslados Aeropuerto">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">
+                  <i class="fas fa-plane me-2"></i>Traslados Aeropuerto
+                </h5>
+                <p class="card-text">Puntualidad garantizada en cada traslado.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Servicio 4 -->
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card border-0 shadow h-100">
+              <img src="img/servicio4.jpg" class="card-img-top" alt="Paquetería Rápida">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">
+                  <i class="fas fa-box me-2"></i>Paquetería Rápida
+                </h5>
+                <p class="card-text">Entrega segura de tus envíos.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Servicio 5 -->
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card border-0 shadow h-100">
+              <img src="img/servicio5.jpg" class="card-img-top" alt="Turismo Local">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">
+                  <i class="fas fa-map-marked-alt me-2"></i>Turismo Local
+                </h5>
+                <p class="card-text">Recorre las zonas turísticas sin preocuparte por la comodidad y seguridad.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Servicio 6 -->
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card border-0 shadow h-100">
+              <img src="img/servicio6.jpg" class="card-img-top" alt="Servicios nacionales">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">
+                  <i class="fas fa-globe me-2"></i>Servicios Nacionales
+                </h5>
+                <p class="card-text">Viaja a todo el Perú con la comodidad y seguridad de Sonrisas.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Servicio 7 -->
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card border-0 shadow h-100">
+              <img src="img/servicio7.jpg" class="card-img-top" alt="Matrimonio">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">
+                  <i class="fas fa-heart me-2"></i>Matrimonio
+                </h5>
+                <p class="card-text">Para esos momentos tan importantes como lo es un Matrimonio, Sonrisas está contigo.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Servicio 8 -->
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card border-0 shadow h-100">
+              <img src="img/servicio8.jpg" class="card-img-top" alt="Mensajería Urgente">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">
+                  <i class="fas fa-bell me-2"></i>Mensajería Urgente
+                </h5>
+                <p class="card-text">Usa nuestro servicio para llevar tus documentos donde quieras.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="py-5">
+      <div class="container">
+        <!-- Título -->
+        <h2 class="display-5 text-center mb-5 fw-bold">Comentarios de nuestros clientes</h2>
+
+        <!-- Carrusel de Testimonios -->
+        <div id="carouselTestimonios" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-inner text-center">
+            <!-- Testimonio 1 -->
+            <div class="carousel-item active">
+              <img src="img/foto1.jpg" alt="Laura Cedeño" class="rounded-circle mb-3" style="width: 120px; height: 120px; object-fit: cover;">
+              <h5 class="fw-bold">Laura Cedeño</h5>
+              <p class="fst-italic text-muted">"¡El mejor servicio en Trujillo! Destaca por su puntualidad y unidades modernas."</p>
+            </div>
+            <!-- Testimonio 2 -->
+            <div class="carousel-item">
+              <img src="img/foto2.jpg" alt="Diana Quispe" class="rounded-circle mb-3" style="width: 120px; height: 120px; object-fit: cover;">
+              <h5 class="fw-bold">Diana Quispe</h5>
+              <p class="fst-italic text-muted">"Recuperaron mi celular y me lo entregaron en casa. ¡Gracias por su honestidad!"</p>
+            </div>
+            <!-- Testimonio 3 -->
+            <div class="carousel-item">
+              <img src="img/foto3.jpg" alt="Anthony Mendoza" class="rounded-circle mb-3" style="width: 120px; height: 120px; object-fit: cover;">
+              <h5 class="fw-bold">Anthony Mendoza</h5>
+              <p class="fst-italic text-muted">"Puntuales y confiables, con autos impecables. ¡Servicio de calidad garantizada!"</p>
+            </div>
+            <!-- Testimonio 4 -->
+            <div class="carousel-item">
+              <img src="img/foto4.jpg" alt="Carlos Pérez" class="rounded-circle mb-3" style="width: 120px; height: 120px; object-fit: cover;">
+              <h5 class="fw-bold">Carlos Pérez</h5>
+              <p class="fst-italic text-muted">"Excelente trato, siempre con conductores profesionales y amigables."</p>
+            </div>
+            <!-- Testimonio 5 -->
+            <div class="carousel-item">
+              <img src="img/foto5.jpg" alt="María López" class="rounded-circle mb-3" style="width: 120px; height: 120px; object-fit: cover;">
+              <h5 class="fw-bold">María López</h5>
+              <p class="fst-italic text-muted">"Siempre confío en Taxi Sonrisas para mis viajes diarios. ¡Muy recomendable!"</p>
+            </div>
+            <!-- Testimonio 6 -->
+            <div class="carousel-item">
+              <img src="img/foto6.jpg" alt="Jorge Ramírez" class="rounded-circle mb-3" style="width: 120px; height: 120px; object-fit: cover;">
+              <h5 class="fw-bold">Jorge Ramírez</h5>
+              <p class="fst-italic text-muted">"Un servicio confiable y rápido. Siempre llegan a tiempo, ¡gracias Taxi Sonrisas!"</p>
+            </div>
+          </div>
+
+          <!-- Indicadores -->
+          <div class="carousel-indicators mt-4">
+            <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="5"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section id="beneficios" class="py-4">
+      <div class="container">
+        <h2 class="display-5 text-center mb-5">Disfruta nuestros beneficios</h2>
+        <div class="row">
+          <!-- Columna izquierda con texto -->
+          <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+            <p class="text-center">
+              Descarga nuestra App <strong>Taxi Sonrisas</strong> y acumula puntos para usarlos con las empresas que forman parte de nuestra <strong>Billetera Sonrisas</strong>.
+            </p>
+          </div>
+          
+          <!-- Columna derecha con tarjetas -->
+          <div class="col-12 col-md-6">
+            <!-- Tarjeta 1 -->
+            <div class="card text-center mb-4">
+              <img src="img/elcultural.jpg" alt="El Cultural" class="card-img-top" style="height: 150px; object-fit: contain;">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-school me-2"></i>El Cultural</h5>
+                <p class="card-text">Instituto educativo Binacional</p>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalCultural">Ver detalle</button>
+              </div>
+            </div>
+            
+          <!-- Tarjeta 2 -->
+            <div class="card text-center mb-4">
+              <img src="img/elolivar.jpg" alt="El Olivar" class="card-img-top" style="height: 150px; object-fit: contain;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">
+                  <i class="fas fa-utensils me-2"></i>El Olivar - 24 Horas
+                </h5>
+                <p class="card-text">Comida criolla y platos variados</p>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalOlivar">Ver detalle</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modales -->
+    <!-- Modal El Cultural -->
+    <div class="modal fade" id="modalCultural" tabindex="-1" aria-labelledby="modalCulturalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalCulturalLabel">El Cultural</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Promoción:</strong> Por 100 puntos obtén un descuento en clases de inglés para adultos y jóvenes.</p>
+            <ul>
+              <li>Básico e intermedio: S/100.00</li>
+              <li>Avanzado: S/150.00</li>
+            </ul>
+            <p><strong>Dirección:</strong> Av. España 234, Trujillo</p>
+            <p><strong>Teléfono:</strong> 987 654 321</p>
+            <p><strong>Horario:</strong> 8:00 am - 6:00 pm</p>
+            <p><strong>Página:</strong> <a href="http://www.elcultural.com" target="_blank">www.elcultural.com</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal El Olivar -->
+    <div class="modal fade" id="modalOlivar" tabindex="-1" aria-labelledby="modalOlivarLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalOlivarLabel">El Olivar - 24 Horas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Promoción:</strong> Por 35 puntos obtén un 25% de descuento válido para:</p>
+            <ul>
+              <li>Milanesa</li>
+              <li>Pechuga a la plancha</li>
+              <li>Chicharrón de pollo</li>
+              <li>Cuy frito</li>
+            </ul>
+            <p><strong>Dirección:</strong> Jirón Brasil 300, Trujillo</p>
+            <p><strong>Teléfono:</strong> 914 594 819</p>
+            <p><strong>Correo:</strong> elolivar_24horas@hotmail.com</p>
+            <p><strong>Horario:</strong> 8:00 am - 5:00 am</p>
+            <p><strong>Página:</strong> <a href="http://www.elolivar24horas.com" target="_blank">www.elolivar24horas.com</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Descargar Nuestra App -->
+    <section id="descargar" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Columna Izquierda: Imagen -->
+          <div class="col-12 col-md-6 mb-4 mb-md-0 text-center">
+            <img src="img/imagen2.jpg" alt="Descargar App" class="img-fluid rounded shadow-sm">
+          </div>
+          <!-- Columna Derecha: Texto y Botones -->
+          <div class="col-12 col-md-6 text-center text-md-start">
+            <h2 class="fw-bold mb-3">¡Tu taxi en camino!</h2>
+            <p class="lead">Descarga nuestra app <strong>Taxi Sonrisas</strong> y solicita tu servicio de manera rápida, segura y confiable.</p>
+            <!-- Botones de descarga -->
+            <div class="mt-4">
+              <a href="https://play.google.com/store/apps/details?id=pe.taxisonrisas.app&pli=1" class="btn btn-dark btn-lg me-2">
+                <i class="fab fa-google-play"></i> Google Play
+              </a>
+              <a href="https://apps.apple.com/pe/app/taxi-sonrisas/id1247697246" class="btn btn-dark btn-lg">
+                <i class="fab fa-apple"></i> App Store
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Convocatoria -->
+
+  <section id="convocatoria" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Texto informativo -->
+        <div class="col-12 col-md-6 text-center text-md-start">
+          <h2 class="fw-bold mb-3 text-warning">¿Quieres ser parte de nuestra familia de conductores?</h2>
+          <p class="mb-4">
+            "Si te gusta conducir y buscas una oportunidad de generar ingresos adicionales, 
+            ¡esta es tu oportunidad! Únete a nuestra comunidad de conductores y disfruta 
+            de los beneficios de trabajar con nosotros."
+          </p>
+        </div>
+        <!-- Formulario -->
+        <div class="col-12 col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Apellidos y nombres</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingrese nombres completos" required>
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni" placeholder="Número de DNI" required>
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo" required>
+            </div>
+            <div class="mb-3">
+              <label for="celular" class="form-label">Celular</label>
+              <input type="text" class="form-control" id="celular" placeholder="Ingrese número de celular" required>
+            </div>
+            <div class="mb-3">
+              <label for="distrito" class="form-label">Distrito</label>
+              <input type="text" class="form-control" id="distrito" placeholder="Ingrese el distrito donde reside" required>
+            </div>
+            <button type="submit" class="btn btn-warning fw-bold px-4">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    </section>
+    </main>
+
+   <!-- Footer -->
+<footer class="bg-dark text-white py-5">
+  <div class="container">
+    <div class="row">
+      <!-- Columna 1: Teléfonos y Libro de Reclamaciones -->
+      <div class="col-12 col-md-4 mb-4 mb-md-0 text-center text-md-start">
+        <h5>Contacto</h5>
+        <p class="mb-1"><strong>Teléfonos:</strong> (01) 234-5678 / 987-654-321</p>
+        <p><strong>Libro de Reclamaciones:</strong></p>
+        <img src="img/reclamaciones.jpg" alt="Libro de Reclamaciones" style="width: 120px;">
+      </div>
+
+      <!-- Columna 2: Logo, descripción y redes sociales -->
+      <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
+        <img src="img/logosonrisas.png" alt="Logo Taxi Sonrisas" style="width: 150px;" class="mb-2">
+        <p>Tu taxi de confianza. Puntualidad, seguridad y comodidad en cada viaje.</p>
+        <!-- Redes Sociales -->
+        <div class="social-icons mt-3">
+          <a href="https://facebook.com" target="_blank" class="me-3">
+            <i class="fab fa-facebook fa-2x" style="color: #3b5998;"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" class="me-3">
+            <i class="fab fa-instagram fa-2x" style="color: #E4405F;"></i>
+          </a>
+        </div>        
+      </div>
+
+      <!-- Columna 3: Imagen a la derecha -->
+      <div class="col-12 col-md-4 text-center text-md-end">
+        <img src="img/footer1.jpg" alt="Taxi Sonrisas Beneficio" class="img-fluid" style="max-width: 300px;">
+      </div>
+    </div>
+
+    <!-- Línea divisoria -->
+    <hr class="border-light my-4">
+
+    <!-- Derechos reservados -->
+    <div class="text-center">
+      <p class="mb-0">&copy; 2024 Taxi Sonrisas. Todos los derechos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
